@@ -1,7 +1,17 @@
 package pojo;
 
 public class Student {
+    private int number;
     private Long id;
+
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
     private String name;
     private String gender;
     private String age;
@@ -57,4 +67,5 @@ public class Student {
                 ", age='" + age + '\'' +
                 '}';
     }
+
 }
