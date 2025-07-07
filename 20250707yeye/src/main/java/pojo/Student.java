@@ -24,6 +24,7 @@ public class Student {
         this.name = name;
         this.gender = gender;
         this.age = age;
+        System.out.println("askjhdk");
     }
 
     public Long getId() {
