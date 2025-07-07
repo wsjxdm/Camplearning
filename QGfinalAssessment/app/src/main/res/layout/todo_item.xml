@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_corners_todo_item"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/todo_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="今天吃M记"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/todo_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2025年4月28日"
+            android:layout_alignParentEnd="true"
+            android:textSize="20sp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
